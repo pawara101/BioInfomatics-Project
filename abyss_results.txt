@@ -1,0 +1,14 @@
+(Abyss-env) pawarad@COG-PawaraD-U:~/anaconda3/envs/Abyss-env$ abyss-fac wildtype.fna test-contigs.fa test-scaffolds.fa
+n	n:500	L50	min	N75	N50	N25	E-size	max	sum	name
+1	1	1	197394	197394	197394	197394	197394	197394	197394	wildtype.fna
+13	7	2	5886	30459	36147	59355	39762	59355	179641	test-contigs.fa
+12	7	2	5886	30917	36147	59355	39817	59355	180099	test-scaffolds.fa
+
+
+
+(Abyss-env) pawarad@COG-PawaraD-U:~/anaconda3/envs/Abyss-env$ cat test-stats.tab
+n	n:500	L50	min	N75	N50	N25	E-size	max	sum	name
+26	11	3	715	14228	22569	34997	24261	36551	176694	test-unitigs.fa
+13	7	2	5886	30459	36147	59355	39762	59355	179641	test-contigs.fa
+12	7	2	5886	30917	36147	59355	39817	59355	180099	test-scaffolds.fa
+
